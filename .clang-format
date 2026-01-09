@@ -1,0 +1,16 @@
+---
+Language:        C
+# Uses the standard LLVM style (VS Code Default)
+BasedOnStyle:    LLVM
+
+# Keeps your preferred indentation of 4 spaces (Standard LLVM uses 2, but 4 is common in C)
+IndentWidth:     4
+TabWidth:        4
+UseTab:          Never
+
+# This ensures braces follow the standard LLVM rules (usually attached)
+# We removed "BreakBeforeBraces: Linux" to stop K&R style
+
+# Prevent long lines from breaking (Your main requirement)
+ColumnLimit:     0
+...
